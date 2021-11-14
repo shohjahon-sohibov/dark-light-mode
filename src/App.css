@@ -1,0 +1,61 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode-select {
+  width: 60px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: none;
+  background-color: coral;
+  border-bottom-right-radius: 10px;
+}
+
+.span-user {
+  font-weight: 100;
+}
+
+.email {
+  font-weight: bolder;
+}
+
+.address {
+  font-weight: bolder;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.item {
+  width: 27%;
+}
+
+.inside-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.div-wrapper-contents {
+  list-style-type: none;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  /* background-color: whitesmoke; */
+}
